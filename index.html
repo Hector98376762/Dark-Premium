@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/LOGO.jpg" width="200" height="200" loading="lazy" alt="">
+            <h1>Dark<span>Premium</span></h1>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="#Servicios">Servicios</a></li>
+                <li><a href="#Comentarios">Comentarios</a></li>
+                <li><a href="#Contactos">Contactos</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburguesa" onclick="abrirMenu()">
+        <i class="bi bi-list"></i>
+        </div>
+    </div>
+    </header>
+
+   <main>
+     <section class="hero">
+        <div class="container-hero">
+            <div class="text-hero">
+                <h3>EXPERIENCIA CULINARIA EXQUISITA</h3>
+                <h2>Saborea el arte de la alta <br> cocina</h2>
+                <p>Deleitese con nuestros platos elaborados,<br>hechos con los mejores ingredientes</p>
+
+                <div class="btn-principal">
+                    <a href="#" class="btn-dorado">Exlorar el menu
+                         <span class="flecha">→</span>
+                    </a>
+                    <a href="#" class="btn-outline">
+                        Reserva tu mesa
+                    </a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="nosotros" id="Nosotros">
+         <div class="container-nosotros">
+            <div class="text-nosotros">
+                <h2>¿Quienes somos?</h2>
+            </div>
+
+            <div class="grid-nosotros">
+                <div class="imagen">
+                    <img src="img/Nosotros.jpg" width="800" height="600"  alt="Sobre nosotros"  loading="lazy">
+                </div>
+
+                <div class="texto-nosotros">
+                    <p>No abrimos puertas; revelamos una experiencia.
+Nuestra historia no empieza en una cocina común, sino en la búsqueda incesante de lo absoluto. Nace de la convicción de que la verdadera alta cocina no necesita gritar para ser notada; brilla con más fuerza en la penumbra.
+
+NOX es el resultado de domar el fuego y respetar la oscuridad. Somos un refugio para aquellos que entienden que el lujo no es ostentación, sino la perfección de lo elemental. Aquí, el tiempo se detiene y los sentidos se agudizan.</p>
+                </div>
+            </div>
+              <div class="card-contador">
+                    <span class="cont">99%</span>
+                   <h3>Envio rapido</h3>
+                     
+                </div>
+
+                
+                <div class="card-contador">
+                <span class="cont">100%</span>
+                   <h3>Disponibilidad</h3>
+                </div>
+
+                
+                <div class="card-contador">
+                     <span class="cont">100%</span>   
+                    <h3>Servicios Garantizados</h3>
+                                        
+                </div>
+         </div>
+     </section>
+      <h2 class="titulo-galeria">Nuestra Galería de Productos</h2>
+     <section class="galeria" id="Servicios">
+    <div class="plato-item">
+        
+        <img src="img/pica pollo.jpg" alt="Pica pollo Grujiente">
+        <div class="info-desplegable">
+            <h3>Pica Pollo Especial</h3>
+            <p>Con fritos maduros y ensalada fresca.</p>
+            <span class="precio">$350</span>
+        </div>
+    </div>
+
+    <div class="plato-item vertical">
+        <img src="img/Besta Burger.jpg" alt="Hamburguesa Doble" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Besta Burger</h3>
+            <p>Doble carne, queso cheddar y bacon.</p>
+            <span class="precio">$550</span>
+        </div>
+    </div>
+
+    <div class="plato-item">
+        <img src="img/Los tres Golpes.webp" alt="Mangú" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Los Tres Golpes</h3>
+            <p>Queso, jamón y huevo con mangú suave.</p>
+            <span class="precio">$275</span>
+        </div>
+    </div>
+
+    <div class="plato-item">
+        <img src="img/Pizza italiana.jpg" alt="Pizza" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Pizza Italiana</h3>
+            <p>Frescamente horneada con leña.</p>
+            <span class="precio">$355</span>
+        </div>
+    </div>
+
+    <div class="plato-item">
+        <img src="img/tacos.jpg" alt="Tacos" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Tacos Al Pastor</h3>
+            <p>Tortilla de maíz, carne adobada y piña.</p>
+            <span class="precio">$300</span>
+        </div>
+    </div>
+
+    <div class="plato-item vertical">
+        <img src="img/batida.jpg" alt="Batida" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Batida de Zapote</h3>
+            <p>Cremosa y natural, hecha al momento.</p>
+            <span class="precio">$150</span>
+        </div>
+    </div>
+
+    <div class="plato-item">
+        <img src="img/chimi.jpeg" alt="Chimi" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Chimi Dominicano</h3>
+            <p>El clásico con repollo y salsa especial.</p>
+            <span class="precio">$225</span>
+        </div>
+    </div>
+
+    <div class="plato-item">
+        <img src="img/sancocho.webp" alt="Sancocho" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Sancocho de 7 Carnes</h3>
+            <p>El sabor dominicano en un plato.</p>
+            <span class="precio">$450</span>
+        </div>
+    </div>
+
+    <div class="plato-item">
+        <img src="img/postre.jpg" alt="Postre" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Tres Leches</h3>
+            <p>Dulce y bañado en tres tipos de leche.</p>
+            <span class="precio">$180</span>
+        </div>
+    </div>
+
+    <div class="plato-item">
+        <img src="img/empanadas.jpg" alt="Empanadas" loading="lazy">
+        <div class="info-desplegable">
+            <h3>Servicio de Empanadas</h3>
+            <p>Rellenas de pollo, queso o res.</p>
+            <span class="precio">$120</span>
+        </div>
+    </div>
+</section>
+      <section class="comentarios" id="Comentarios">
+        <div class="container-comentarios">
+            <div class="text-nosotros">
+                <h2>Comentarios</h2>
+            </div>
+
+            <div class="grid-comentarios">
+
+            <div class="card-comentarios">
+             <img src="img/cometario 1.webp" width="200" height="200" alt="Comentarios1" loading="lazy">
+            <h4>Juan Pérez</h4>
+            <p>Excelente servicio, todo llegó rápido y en perfecto estado. DarkPremium recomendado 🔥</p>
+            <span>⭐⭐⭐⭐⭐</span>
+            </div>
+
+            <div class="card-comentarios">
+                 <img src="img/comentario4.webp" width="200" height="200" alt="Comentarios2" loading="lazy">
+               <h4>María Rodríguez</h4>
+               <p>Muy buena calidad, superó mis expectativas. Sin duda vuelvo a comprar en DarkPremium.</p>
+               <span>⭐⭐⭐⭐⭐</span>
+            </div>
+
+             <div class="card-comentarios">
+                <img src="img/cometario 2.webp" width="200" height="200" alt="Comentarios3" loading="lazy">
+               <h4>Carlos Gómez</h4>
+               <p>Atención al cliente de primera, resolvieron mis dudas al instante. DarkPremium 💯</p>
+               <span>⭐⭐⭐⭐⭐</span>
+            </div>
+
+             <div class="card-comentarios">
+                <img src="img/cometario5.webp" width="200" height="200" alt="Comentarios4" loading="lazy">
+               <h4>Ana Martínez</h4>
+               <p>Me encantó la experiencia, todo muy profesional. DarkPremium nunca falla.</p>
+               <span>⭐⭐⭐⭐⭐</span>
+            </div>
+
+             <div class="card-comentarios">
+                 <img src="img/cometario3.webp" width="200" height="200" alt="Comentarios5" loading="lazy">
+               <h4>Luis Fernández</h4>
+               <p>Productos originales y a buen precio, totalmente confiable DarkPremium.</p>
+               <span>⭐⭐⭐⭐⭐</span>
+            </div>
+
+             <div class="card-comentarios">
+               <img src="img/comentario6.webp" width="200" height="200" alt="Comentarios6" loading="lazy">
+               <h4>María Rodríguez</h4>
+               <p>Muy buena calidad, superó mis expectativas. Sin duda vuelvo a comprar en DarkPremium.</p>
+               <span>⭐⭐⭐⭐⭐</span>
+            </div>
+             
+        </div>
+            </div>
+      </section>
+
+<section class="contacto" id="contacto">
+    <h2>Reserva / Contacto</h2>
+
+    <div class="container-contacto">
+
+       
+        <div class="info-contacto">
+            <h3>Información</h3>
+
+            <p>📍 Santo Domingo, República Dominicana</p>
+            <p>📞 +1 809-943-7500</p>
+            <p>📧 seguraspolancohector@gmail.com</p>
+            <p>🕒 Lun - Sáb: 9:00 AM - 8:00 PM</p>
+        </div>
+
+       
+        <form class="formulario">
+            <h3>Haz tu reserva</h3>
+
+            <input type="text" placeholder="Nombre completo" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="tel" placeholder="Teléfono" required>
+
+            <input type="date" required>
+            <input type="time" required>
+
+            <textarea placeholder="Detalles adicionales"></textarea>
+
+            <button type="submit">Reservar Ahora</button>
+        </form>
+
+    </div>
+
+    
+    <div class="mapa">
+        <iframe 
+        src="https://www.google.com/maps?q=santo+domingo&output=embed">
+        </iframe>
+    </div>
+</section>
+   </main>
+
+   <footer class="footer">
+
+    <div class="footer-container">
+
+       
+        <div class="footer-box">
+            <h3>DarkPremium</h3>
+            <p>Tienda online con estilo premium. Calidad, confianza y elegancia en cada compra.</p>
+        </div>
+
+        
+        <div class="footer-box">
+            <h4>Enlaces</h4>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#Comentarios">Comentarios</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+
+       
+        <div class="footer-box">
+            <h4>Contacto</h4>
+            <p>📞 +1 809-943-7500</p>
+            <p>📧 seguraspolancohector@gmail.com</p>
+            <p>📍 Santo Domingo, RD</p>
+        </div>
+
+       
+        <div class="footer-box">
+            <h4>Síguenos</h4>
+
+            <div class="redes">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="footer-bottom">
+        <p>© 2026 DarkPremium | Todos los derechos reservados</p>
+    </div>
+
+</footer>
+
+   <script src="scrip.js"></script>
+</body>
+</html>
