@@ -95,7 +95,7 @@ body {
    background: linear-gradient(
     rgba(0,0,0,0.44),
     rgba(0,0,0,44)
-   ),url(/img/hero.webp);
+   ),url(img/hero.webp);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
