@@ -94,8 +94,8 @@ body {
 .hero {
    background: linear-gradient(
     rgba(0,0,0,0.44),
-    rgba(0,0,0,44)
-   ),url(img/hero.webp);
+    rgba(0,0,0,.44)
+   ),url(img/fondo.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
