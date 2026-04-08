@@ -48,3 +48,16 @@ document.addEventListener('DOMContentLoaded', () => {
         platos.forEach(p => p.classList.remove('is-active'));
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    flatpickr("#fecha", {
+        dateFormat: "Y-m-d"
+    });
+
+    flatpickr("#hora", {
+        enableTime: true,
+        noCalendar: true,
+        dateFormat: "H:i"
+    });
+});

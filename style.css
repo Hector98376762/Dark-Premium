@@ -354,6 +354,48 @@ body {
     filter: blur(2px) brightness(0.7);
 }
 
+.btn-pedir {
+    display: inline-block; 
+    position: relative;    
+    z-index: 1000;         
+    cursor: pointer;       
+    pointer-events: auto !important; 
+    margin-top: 5px;     
+    background: #ff9f1c;  
+    color: #fff !important;
+    border: none;
+    border-radius: 8px;   
+    text-align: center;
+    text-decoration: none; 
+    font-weight: 700;
+    transition: all 0.3s ease;
+    width: auto;           
+    padding: 6px 5px;    
+    font-size: 13px;
+}
+
+
+.btn-pedir:hover {
+    background: #e68a00;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+
+.plato-item:hover .info-desplegable,
+.plato-item:focus-within .info-desplegable {
+    pointer-events: auto; 
+}
+
+
+.info-desplegable {
+    transition: all 0.4s ease;
+    pointer-events: none; 
+}
+
+
+
+
 .comentarios {
     padding: 80px 20px;
     background-color: var(--color-texto-claro);
@@ -378,7 +420,7 @@ body {
 }
 
 .card-comentarios h4 {
-    color: var(--color-texto-claro);
+    color: var(--color-fondo-oscuro);
     margin-bottom: 10px;
 }
 
@@ -397,7 +439,7 @@ body {
     height: auto;
     border-radius: 50%;
     object-fit: cover;
-    border:3px solid var(--color-primario) ;
+    border:3px solid var(--color-primario);
 }
 
 .card-comentarios:hover {
@@ -473,13 +515,14 @@ body {
 .formulario input,
 .formulario textarea {
     width: 100%;
-    padding: 12px;
-    margin-bottom: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
     border: 1px solid #ddd;
     background: var(--color-texto-claro);
     transition: 0.3s;
 }
+
 
 
 .formulario input:focus,
@@ -559,12 +602,12 @@ body {
     color: var(--color-texto-claro);
     margin-bottom: 8px;
     transition: 0.3s;
+    
 }
 
 .footer-box a:hover {
     color: var(--color-primario);
     transform: translateX(5px);
-   
 }
 
 
@@ -589,7 +632,7 @@ body {
 .footer-bottom {
     text-align: center;
     margin-top: 40px;
-    border-top: 1px solid var(--color-texto-claro);
+    border-top: 1px solid var(--color-primario);
     padding-top: 15px;
 }
 
@@ -598,7 +641,54 @@ body {
     color: var(--color-texto-claro);
 }
 
+.btn-wsp {
+    position: fixed;
+    width: 55px;       
+    height: 55px;
+    line-height: 55px;   
+    bottom: 25px;       
+    right: 25px;
+    background: #25d366; 
+    color: #fff !important;
+    border-radius: 50%; 
+    text-align: center;
+    font-size: 32px;   
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    z-index: 1000;       
+    transition: all 0.3s ease-in-out; 
+    display: flex;     
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+}
 
+
+.btn-wsp:hover {
+    background: #20ba5a;  
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.3);
+    transform: translateY(-5px) scale(1.05); 
+}
+
+/* =========================================
+   RESPONSIVE: AJUSTES PARA MÓVILES (Celulares)
+   Se activa en pantallas de menos de 768px
+   ========================================= */
+@media screen and (max-width: 768px) {
+    .btn-wsp {
+        width: 48px;        
+        height: 48px;
+        line-height: 48px;
+        bottom: 20px;      
+        right: 20px;
+        font-size: 28px;    
+        box-shadow: 0px 3px 10px rgba(0,0,0,0.25); 
+    }
+
+   
+    .btn-wsp:hover {
+        transform: none; 
+    }
+}
 
 @media (max-width: 768px) {
     /* 1. HEADER Y HAMBURGUESA */
