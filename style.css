@@ -806,9 +806,6 @@ body {
 
     }
 
-    #hora_reserva, input[name="hora"] {
-        display: block;
-        width: 100%;
-    }
+    
 
 }

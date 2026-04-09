@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 flatpickr("#fecha", {
     minDate: "today",
     dateFormat: "d-m-Y",
-    disableMobile: false, // Esto obliga a usar tu diseño y no el del cel
+    disableMobile: "true", // Esto obliga a usar tu diseño y no el del cel
     placeholder: "Fecha de reserva" // El plugin ahora sabe qué poner
 });
 
@@ -62,6 +62,6 @@ flatpickr("#hora_reserva", {
     enableTime: true,
     noCalendar: true,
     dateFormat: "H:i",
-    disableMobile: false,
+    disableMobile: "true",
     placeholder: "Hora de reserva"
 });
