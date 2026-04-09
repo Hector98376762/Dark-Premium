@@ -698,8 +698,9 @@ body {
 @media (max-width: 768px) {
     /* 1. HEADER Y HAMBURGUESA */
     .header {
-        padding: 10px 20px;
+        padding: 25px 20px;
         justify-content: space-between;
+        align-items: center;
     }
 
     .hamburguesa i {
@@ -708,6 +709,16 @@ body {
         color: var(--color-primario);
         cursor: pointer;
         z-index: 2000;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 60px;
+        width: auto;
+        object-fit: cover;
     }
 
     /* 2. MENÚ LATERAL (SIDEBAR) */
