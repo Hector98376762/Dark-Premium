@@ -459,7 +459,7 @@ body {
 
 .contacto h2 {
     font-size: 32px;
-    color: var(#B8860b);
+    color: var(#e68a00);
     margin-bottom: 40px;
 }
 
@@ -485,7 +485,7 @@ body {
 
 
 .info-contacto h3 {
-    color: var(--color-primario);
+    color: #e68a00;
     margin-bottom: 15px;
 }
 
@@ -523,7 +523,7 @@ body {
     border: 1px solid #ddd;
     background: var(--color-texto-claro);
     transition: 0.3s;
-    color: #333;
+    color: #000000;
 }
 
 

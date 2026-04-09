@@ -50,14 +50,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    flatpickr("#fecha", {
-        dateFormat: "Y-m-d"
-    });
+flatpickr("#fecha", {
+    minDate: "today",
+    dateFormat: "d-m-Y",
+    disableMobile: "true", // Esto obliga a usar tu diseño y no el del cel
+    placeholder: "Fecha de reserva" // El plugin ahora sabe qué poner
+});
 
-    flatpickr("#hora", {
-        enableTime: true,
-        noCalendar: true,
-        dateFormat: "H:i"
-    });
+// Para la Hora
+flatpickr("#hora", {
+    enableTime: true,
+    noCalendar: true,
+    dateFormat: "H:i",
+    placeholder: "Hora de reserva"
 });
