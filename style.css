@@ -95,7 +95,7 @@ body {
    background: linear-gradient(
     rgba(0,0,0,0.44),
     rgba(0,0,0,.44)
-   ),url(img/fondo.jpg);
+   ),url(img/fondo.webp);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -280,8 +280,8 @@ body {
 
 
 .galeria {
-    column-count: 3; 
-    column-gap: 25px; 
+    column-count: 4; 
+    column-gap: 25px;
     padding: 0 40px;
     width: 100%;
     margin-bottom: 50px;
@@ -303,9 +303,11 @@ body {
 
 .plato-item img {
     width: 100%;
-    height: auto; 
-    display: block;
+    height: 250px; 
+   
     transition: transform 0.5s ease;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
 }
 
 
@@ -457,7 +459,7 @@ body {
 
 .contacto h2 {
     font-size: 32px;
-    color: var(--color-primario);
+    color: var(#B8860b);
     margin-bottom: 40px;
 }
 
@@ -521,6 +523,7 @@ body {
     border: 1px solid #ddd;
     background: var(--color-texto-claro);
     transition: 0.3s;
+    color: #333;
 }
 
 
