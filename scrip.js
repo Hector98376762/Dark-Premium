@@ -58,7 +58,7 @@ flatpickr("#fecha", {
 });
 
 // Para la Hora
-flatpickr("#hora", {
+flatpickr("#hora_reserva", {
     enableTime: true,
     noCalendar: true,
     dateFormat: "H:i",
