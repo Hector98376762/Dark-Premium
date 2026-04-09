@@ -788,4 +788,23 @@ body {
         width: 100%;
         justify-content: center;
     }
+
+    .formulario input,
+    .formulario textarea {
+        font-size: 16px;
+        padding: 15px;
+      background-color: var(--color-texto-claro);
+      color: #000000;
+      -webkit-appearance: none;
+      border: 1px solid #ccc;
+    }
+
+    .contacto h2,
+    .formulario h3,
+    .info-contacto h3  {
+    color: #a67c00;
+    font-weight: 700;
+
+    }
+
 }
